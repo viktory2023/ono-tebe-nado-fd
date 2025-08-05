@@ -168,11 +168,14 @@ address{
     height: 596px;
 }
 
-.card_link {
-    text-decoration: none;
+.сard{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    inset: 0;
+    z-index: 0;
 }
 
-.card{
+.card-link{
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
