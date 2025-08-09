@@ -197,27 +197,26 @@ header {
     justify-content: space-between;
     height: 100%;
     min-height: 596px;
-    background-size: cover;
-    background-position: center;
     overflow: hidden;
     color: #ffffff;
     width: 334px;
 }
 
+.card_link {
+    background: center / cover no-repeat;
+}
+
 
 .card_type_film {
-    background:
-        center / cover no-repeat url('../images/card-lot-01.jpg');
+    background-image: url('../images/card-lot-01.jpg');
 }
 
 .card_type_book {
-    background:
-        center / cover no-repeat url('../images/card-lot-02.jpg');
+    background-image: url('../images/card-lot-02.jpg');
 }
 
 .card_type_picture {
-    background:
-        center / cover no-repeat url('../images/card-lot-03.jpg');
+    background-image: url('../images/card-lot-03.jpg');
 }
 
 .card__title {
