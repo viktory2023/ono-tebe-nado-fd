@@ -206,15 +206,18 @@ header {
 
 
 .card_type_film {
-    background-image: url('../images/card-lot-01.jpg');
+    background:
+        center / cover no-repeat url('../images/card-lot-01.jpg');
 }
 
 .card_type_book {
-    background-image: url('../images/card-lot-02.jpg');
+    background:
+        center / cover no-repeat url('../images/card-lot-02.jpg');
 }
 
 .card_type_picture {
-    background-image: url('../images/card-lot-03.jpg');
+    background:
+        center / cover no-repeat url('../images/card-lot-03.jpg');
 }
 
 .card__title {
@@ -270,7 +273,7 @@ header {
     align-items: center;
 }
 
-.about__logo > img {
+.about__logo>img {
     width: 148px;
     height: 114px;
 }
@@ -304,7 +307,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-    padding: 0 50px;
+    padding: 0 50px 82px 50px;
 }
 
 .footer__address {
