@@ -328,8 +328,7 @@ footer {
     justify-self: center;
 }
 
-.footer__menu-link,
-.footer__menu-link_active {
+.footer__menu-link {
     font-size: 18px;
     color: #000;
     text-decoration: none;
