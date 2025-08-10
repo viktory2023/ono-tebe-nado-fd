@@ -52,20 +52,11 @@ header {
     height: auto;
 }
 
-.address {
-    width: 240px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    word-wrap: break-word;
-    gap: 2px;
-}
 
 .header__address {
     display: flex;
     flex-direction: column;
     margin-left: 190px;
-    font-style: normal;
 }
 
 .address_text {
@@ -74,6 +65,7 @@ header {
     text-decoration: none;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
+    font-style: normal;
 }
 
 .address_text.line {
